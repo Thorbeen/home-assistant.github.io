@@ -115,7 +115,7 @@ For instance:
 script:
   porch_on:
     sequence:
-      - service: light.hue_activate_scene
+      - service: hue.hue_activate_scene
         data:
           group_name: "Porch"
           scene_name: "Porch Orange"
